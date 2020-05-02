@@ -1,4 +1,3 @@
-# module 43
 # virtual environment
 
 # virtual env is a way that we can separate different python environment for different projects.

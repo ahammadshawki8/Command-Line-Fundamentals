@@ -127,6 +127,15 @@
 # we can reverse the sort using hiphen(-)
 "dir /O-D"
 
+# pipeline
+# there is a sort command also we can use dir and sort command at the same time by pipeline.
+# pipeline just pass the returned value of previouus operation to the next operation.
+"dir | sort"
+# here | is the pipeline.
+# however pipelining in cmd is way limited as we can only pass the string objects.
+# in this example | doesn't know what folder or file or directory is. it just sorting by the directory name which is text string.
+# but piplining is a main action in powershell which makes powershell so powerfull.
+
 # to print the previous command what we did, we can use the upper arrow key.
 # to print the next command what we did, we can use the lower arrow key.
 
@@ -241,7 +250,9 @@
 'mkdir "single directory"/new1 bye/hi'
 
 # ECHO COMMAND
-# echo command is use for making files.
+# echo command is use for printing text and making files.
+"echo hello world!"
+# to makae file, we can add > sign and the file name after that.
 "echo hey I am a coder > coder.txt"
 # here we have to write the contents of the file, then we have to use the > sign,
 # after that we will write the file name with extension.
