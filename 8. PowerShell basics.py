@@ -1,4 +1,4 @@
-# Intro with PowerShell
+# PowerShell basics
 
 # we can use the cmd commands in powershell.
 # but not only that we can also run many linux prompt command,
