@@ -108,5 +108,23 @@ print(dir(sys))
 #  'setswitchinterval', 'settrace', 'stderr', 'stdin', 'stdout', 'thread_info', 'unraisablehook',
 #  'version', 'version_info', 'warnoptions', 'winver']
 
+
+# variables and constants in sys module
+# we have some variables in sys module. they are-
+
+print(sys.version) # prints python version
+print(sys.version_info) # prints detail info about python version
+print(sys.byteorder) # indicator of native byteorder.
+print(sys.executable) # a string contsining the executable binary. it means the path and execuatble binary for that current python interpreter.
+print(sys.maxsize) # this variable largest possible integer which supported by python regular integer type.
+print(sys.modules) # the value of sys.modules actually is a dictionay mapping.
+# it maps the names of the modules to the modules which we already being located and this can be manipulated.
+# for example, we can enforce the reloading of modules as well.
+print(sys.path) # path contains a search path where python is looking for all of the modules that are present.
+print(sys.platform) # platform gives us the name of the platform on which python is running on. it is linux2 for linux and win32 for windows.
+
+
+
 # we will go through this module describely later if we want to use them in my projects.
 # we can also see the system programming module for more information.
+
