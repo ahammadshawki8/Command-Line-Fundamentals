@@ -10,3 +10,6 @@ In this repository, I have discussed how to code in CMD and powershell and also 
 2. Sentdex (@Sentdex) - https://www.youtube.com/user/sentdex 
 3. Edureka - https://www.youtube.com/user/edurekaIN
 4. Padhega India - https://www.youtube.com/watch?v=5Elc8MbJvnE (Language Hindi)
+
+# _License_
+Details can be found in [LICENSE](https://github.com/ahammadshawki8/Command-Line-Fundamentals/blob/master/LICENSE)
